@@ -1,0 +1,21 @@
+.icon {
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 50px;
+    min-width: 50px;
+    padding: 5px;
+    margin: 3px;
+    background-image: url('../asset/1.jpg');
+}
+.story{
+    width: 520px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 5px auto;
+    padding: 10px 1px;
+    overflow-x: auto;
+    background-color: white;
+}
+.story::-webkit-scrollbar{
+    display: none;
+}

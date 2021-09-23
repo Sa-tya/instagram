@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  background-color: rgb(245, 238, 238);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+.logo {
+  font-family: cursive;
+  font-size: 40px;
+  font-weight: 900;
+}
+.header svg{
+  width: 32px;
+  height: 32px;
+  /* padding: 10px; */
+  margin: 10px;
+}

@@ -1,0 +1,61 @@
+.img{
+    width: 490px;
+    height: 400px;
+    /* background-image: url('../asset/1.jpg'); */
+    /* object-fit: cover; */
+    
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+.card {
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 5px;
+}
+.feed {
+width: 520px;
+height: auto;
+margin: 2px auto;
+padding: 2px;
+background-color: wheat;
+}
+.feedData {
+    position: relative;
+    /* border: 1px solid black; */
+    height: auto;
+}
+.buttons {
+    font-family: sans-serif;
+    padding: 10px;
+}
+.cardHead {
+    display: flex;
+    align-items: center;
+}
+.cardHead p{
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.pic {
+    height: 35px;
+    width: 35px;
+    padding: 1px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.buttons svg{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    cursor: pointer;
+    /* padding: 5px; */
+}
+.feedData p{
+margin: 1px;
+padding: 0;
+}
